@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url('t1.jfif'); /* Update the path accordingly */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            flex: 1;
+            padding: 1.5rem;
+            text-align: center;
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .feature:hover {
+            background-color: #3c3c3c;
+        }
+
+        .feature h3 {
+            color: #fff;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 1.5rem 3rem;
+            background-color: #4caf50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+
+        .testimonial {
+            background-color: #333;
+            color: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+        }
+
+        .testimonial h2 {
+            margin-bottom: 1rem;
+        }
+
+        .footer-social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .social-icon {
+            font-size: 1.5rem;
+            margin: 0 1rem;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: #4caf50;
+        }
+
+        .video-section {
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+            margin-top: 2rem;
+        }
+
+        .video-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .game-preview {
+            margin-top: 2rem;
+        }
+
+        .activation-btn {
+            display: inline-block;
+            padding: 1.5rem 3rem;
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .activation-btn:hover {
+            background-color: #c0392b;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Game Hub</h1>
+        <p>Explore, Play, and Conquer!</p>
+    </header>
+
+    <section class="container">
+        <h2>About Game Hub</h2>
+        <p>Welcome to the ultimate gaming experience. Discover a world of exciting games and challenges that will keep you entertained for hours.</p>
+    </section>
+
+    <section class="container features">
+        <div class="feature">
+            <h3>Action-packed Games</h3>
+            <p>Immerse yourself in thrilling action with our collection of high-quality, adrenaline-pumping games.</p>
+        </div>
+        <div class="feature">
+            <h3>Multiplayer Fun</h3>
+            <p>Challenge your friends or join forces with players worldwide. Our multiplayer games bring a new level of excitement.</p>
+        </div>
+        <div class="feature">
+            <h3>Stunning Graphics</h3>
+            <p>Experience jaw-dropping visuals and realistic graphics that will transport you to another gaming dimension.</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <p class="download-btn">Download Now</p>
+    </section>
+
+    <section class="testimonial">
+        <h2>What Players Say</h2>
+        <p>"Game Hub is simply amazing! The variety of games and the immersive experience keep me coming back for more."</p>
+        <p>- John Doe, avid gamer</p>
+    </section>
+
+    <section class="footer-social-icons">
+        <a href="#" class="social-icon" title="Facebook">Facebook</a>
+        <a href="#" class="social-icon" title="Twitter">Twitter</a>
+        <a href="#" class="social-icon" title="Instagram">Instagram</a>
+        <a href="#" class="social-icon" title="YouTube">YouTube</a>
+    </section>
+
+    <section class="video-section">
+        <div class="video-container">
+            <!-- Embed your game trailer or promotional video here -->
+            <frame width="100%" height="100%" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section class="game-preview container">
+        <h2>Game Preview</h2>
+        <p>Check out a sneak peek of our featured game.</p>
+        <a href="#" class="activation-btn">Activate Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Game Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
